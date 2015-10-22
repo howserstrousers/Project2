@@ -21,11 +21,18 @@
 
 				body {
 					background-image: url(img/P2.jpg);
+					background-size: cover;
+				}
+
+				nav {
+					width: 15%;
 				}
 
 				.photos {
 					margin: 0 auto;
 					padding: 0 auto;
+					width: auto;
+					max-height: 650px
 				}
 
 				.photoleft {
@@ -45,14 +52,13 @@
 					width:50%;
 					height:600px;
 					overflow: auto;
-				}
+				} 
 
 				.p6 {
 					width:auto;
 					height: auto;
 					max-width:1000px;
-					max-height:60% auto;
-					position:left;
+					max-height: auto;
 				}
 				
 				li {
@@ -71,7 +77,7 @@
 			<ul>
 				<li><a href="index.html">1</a></li>
 				<li><a href="page2.html">2</a></li>
-				<li><a href="page3.html"><span>3</span></a></li>
+				<li><a href="page3.html">3</a></li>
 				<li><a href="page4.html">4</a></li>
 				<li><a href="page5.html">5</a></li>
 				<li><a href="page6.html">6</a></li>
@@ -82,13 +88,20 @@
 		</nav>
 
 		<div class="photos">
-			<div class="photoleft">
-				<img class="p5" id="photo" src="img/P5.jpg">
-			</div>
+			
+			
+				<div class="photoleft">
+					<a href="page6.html">
+					<img class="p5" id="photo" src="img/P5.jpg">
+					</a>
+				</div>
 
-			<div class="photoright">
-				<img class="p6" src="img/P6.jpg">
-			</div>
+				<div class="photoright">
+					<a href="page7.html">
+					<img class="p6" src="img/P6.jpg">
+					</a>
+				</div>
+
 	    </div>
 
 	</body>
