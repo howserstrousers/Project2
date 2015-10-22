@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>7</title>
+
+			<style>
+				html, body{
+					box-sizing: border-box;
+				}
+
+				* {
+					box-sizing: inherit;
+				}
+
+				html, body, h1, h2, h3, h4, h5, h6 {
+					padding:0;
+					margin:0;
+					font-family: helvetica;
+				}
+
+				.video {
+					position:absolute;
+					left:0;
+					width:100%;
+					height:100%;
+
+
+				}
+				
+				.footage {
+					top: 50px;
+					right: 0 auto;
+					bottom: 0 auto;
+					left: 0 auto;
+					width: 100%;
+					overflow: auto;
+					position: fixed;
+					z-index: -100;
+					border: 2px solid blue
+				}
+
+				li {
+					display:inline;
+				}
+
+				span{
+					text-decoration: underline;
+				}
+
+				nav {
+					position: fixed;
+				}
+
+			</style>
+	</head>
+
+	<body>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">1</a></li>
+				<li><a href="page2.html">2</a></li>
+				<li><a href="page3.html">3</a></li>
+				<li><a href="page4.html">4</a></li>
+				<li><a href="page5.html">5</a></li>
+				<li><a href="page6.html">6</a></li>
+				<li><a href="page7.html">7</a></li>
+				<li><a href="page8.html"><span>8</span></a></li>
+				<li><a href="page9.html">9</a></li>
+			</ul>
+		</nav>
+
+		
+		<a href="index.html">
+		<div class="video">
+				<video class="footage" controls autoplay loop>
+  				<source src="" type="video/mp4">   
+		</div>
+		</a>
+
+
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>4</title>
+
+			<style>
+				html, body{
+					box-sizing: border-box;
+				}
+
+				* {
+					box-sizing: inherit;
+				}
+
+				html, body, h1, h2, h3, h4, h5, h6 {
+					padding:0;
+					margin:0;
+					font-family: helvetica;
+				}
+
+				body {
+					background-image: url(img/P3.jpg);
+				}
+
+				.photos {
+					margin: 0 auto;
+					padding: 0 auto;
+				}
+
+				.photoleft {
+					width:50%;
+					height:600px;
+					float:left;
+					overflow: auto;
+				}
+
+				.p7 {
+					width: auto;
+					height: auto;
+					max-width:1000px;
+					max-height:auto;
+				}
+				.photoright {
+					width:50%;
+					height:600px;
+					overflow: auto;
+				}
+
+				.p8 {
+					width:auto;
+					height: auto;
+					max-width:1000px;
+					max-height:auto;
+					position:left;
+				}
+				
+				li {
+					display:inline;
+				}
+
+				span{
+					text-decoration: underline;
+				}
+			</style>
+	</head>
+
+	<body>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">1</a></li>
+				<li><a href="page2.html">2</a></li>
+				<li><a href="page3.html">3</a></li>
+				<li><a href="page4.html"><span>4</span></a></li>
+				<li><a href="page5.html">5</a></li>
+				<li><a href="page6.html">6</a></li>
+				<li><a href="page7.html">7</a></li>
+				<li><a href="page8.html">8</a></li>
+				<li><a href="page9.html">9</a></li>
+			</ul>
+		</nav>
+
+		<div class="photos">
+			<div class="photoleft">
+				<a href="page8.html">
+				<img class="p7" id="photo" src="img/P7.jpg">
+				</a>
+			</div>
+
+			<div class="photoright">
+				<a href="page9.html">
+				<img class="p8" src="img/P8.jpg">
+				</a>
+			</div>
+	    </div>
+
+	</body>
+</html>
