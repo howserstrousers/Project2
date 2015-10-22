@@ -29,12 +29,13 @@
 				}
 				
 				.footage {
+					top: 50px;
+					right: 0 auto;
+					bottom: 0 auto;
+					left: 0 auto;
+					width: 100%;
+					overflow: auto;
 					position: fixed;
-					top: 20px;
-					right: 0;
-					bottom: 0;
-					left: 0;
-					overflow:hidden;
 					z-index: -100;
 				}
 
@@ -45,6 +46,11 @@
 				span{
 					text-decoration: underline;
 				}
+
+				nav {
+					position: fixed;
+				}
+
 			</style>
 	</head>
 
@@ -64,12 +70,14 @@
 			</ul>
 		</nav>
 
+		
+		<a href="index.html">
 		<div class="video">
-				<a href="index.html">
 				<video class="footage" controls autoplay loop>
   				<source src="img/V4.mp4" type="video/mp4">   
-  				</a>
 		</div>
+		</a>
+
 
 	</body>
 </html>
