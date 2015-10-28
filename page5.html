@@ -20,7 +20,7 @@
 				}
 
 				body {
-					background-image: url(img/P4.jpg);
+					background-image: url(img/P4_BG.png);
 					background-size: cover;
 				}
 
@@ -29,11 +29,23 @@
 					position:fixed;
 				}
 
-				.footage {
-					margin: 0 auto;
-					padding: 50px;
+				.spinner {
 					width: 100%;
-					max-height: 600px;	
+					height:100%;
+				}
+
+				.head {
+					width: 100%;
+					height:100%;
+				    top: 50%;
+				    left: 50%;
+				    -webkit-animation:spin 8s linear infinite;
+				    -moz-animation:spin 8s linear infinite;
+				    animation:spin 8s linear infinite;
+				}
+				@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+				@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+				@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 				}
 
 				li {
@@ -64,12 +76,12 @@
 		</nav>
 
 		
-		<a href="index.html">
-		<div class="video">
-				<video class="footage" controls autoplay loop>
-  				<source src="" type="video/mp4">   
+		<div class="spinner">
+			<a href="index.html">
+			<img class="head" src="img/P4_HEAD.png">
+			</a>
 		</div>
-		</a>
+		
 
 
 	</body>
